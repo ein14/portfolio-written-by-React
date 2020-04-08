@@ -42,6 +42,7 @@ class Item extends React.Component{
          onclick={() => {this.handleClickLesson()}}
          >
            <p>{this.props.name}</p>
+           <p>{this.props.introduction}</p>
          </div>
          {modal}
       </div>

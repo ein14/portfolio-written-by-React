@@ -4,7 +4,7 @@ import Item from './Item';
 
 class Main extends React.Component{
   render(){
-    const plofile = [
+    const plofileList = [
       {
       name: 'ein14',
       introduction:'理系単科大学４年次'
@@ -21,11 +21,11 @@ class Main extends React.Component{
           <h1>Welcome to my portfolio</h1>
         </div>
         <h2>About Me</h2>
-        {plofile.map((plofileItem) => {
+        {plofileList.map((plofileItem) => {
           return(
             <Item 
               name = { plofileItem.name }
-              introduction = { plofile.introduction }
+              introduction = { plofileItem.introduction }
               />
           );
         }) }
