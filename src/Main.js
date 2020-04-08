@@ -23,7 +23,7 @@ class Main extends React.Component{
         <h2>About Me</h2>
         {plofile.map((plofileItem) => {
           return(
-            <plofile 
+            <Item 
               name = { plofileItem.name }
               introduction = { plofile.introduction }
               />
