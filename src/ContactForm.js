@@ -67,13 +67,13 @@ class ContactForm extends React.Component {
     
     return (
       <form onSubmit={this.handleSubmit.bind(this)} >
-        <p>メールアドレス（必須）</p>
+        <p>メールアドレス</p>
         <input
           value={this.state.email}
           onChange={(event) => {this.handleEmailChange(event)}}
         />
         {emailErrorText}
-        <p>お問い合わせ内容（必須）</p>
+        <p>お問い合わせ内容</p>
         <textarea  value={this.state.content}
                     onChange={(event) => {this.handleContentChange(event)}}  
         />

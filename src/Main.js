@@ -18,7 +18,7 @@ class Main extends React.Component{
     return(
       <div className='main-wrapper'>
         <div className='main'>
-          <h1>Welcome to my portfolio</h1>
+          <h1></h1>
         </div>
         <h2>About Me</h2>
         {plofileList.map((plofileItem) => {
